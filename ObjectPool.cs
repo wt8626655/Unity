@@ -7,7 +7,7 @@ public class ObjectPool : MonoBehaviour
     public static ObjectPool Instance;
     public List<GameObject> pooledObjects;
     public GameObject objectToPool;
-    public int amountToPool;
+    public int amountToPool=10;
 
     void Awake()
     {
